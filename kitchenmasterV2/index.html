@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kithen Master</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+</head>
+
+<body>
+	<script src="../counter.js"></script>
+    <div class="landing">
+        <div class="container">
+            <div class="landing__header">
+                
+                <div class="landing__sale">
+                    <span>50%</span>
+                </div>
+                <div class="landing__old-price">
+                    <span class="old_price_val">3380</span>
+                    <span class="old_price_cur">руб.</span>
+                </div>
+                <div class="landing__new-price">
+                    <span class="new_price_val">1690</span>
+                    <span class="new_price_cur">руб.</span>
+                </div>
+                <form class="landing__form header">
+                    <div class="form__items">
+                        <div class="form__item">
+                            <select name="country">
+							</select>
+                        </div>
+                        <div class="form__item">
+                            <input type="text" class="form-submit__input form-control form-control_empty" placeholder="Ваше имя" name="name">
+                        </div>
+                        <div class="form__item">
+                            <input type="text" class="form-submit__input form-control form-control_empty" placeholder="Номер телефона" name="phone">
+                        </div>
+                        <div class="form__item">
+                            <input type="submit" class="form__btn" value="ОФОРМИТЬ ЗАКАЗ">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="iframe">
+                <iframe width="485" height="283" src="https://www.youtube.com/embed/ev7VV04rzng" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="landing__footer">
+
+                <div class="landing__sale">
+                    <span>50%</span>
+                </div>
+                <div class="landing__old-price">
+                    <span class="old_price_val">3380</span>
+                    <span class="old_price_cur">руб.</span>
+                </div>
+                <div class="landing__new-price">
+                    <span class="new_price_val">1690</span>
+                    <span class="new_price_cur">руб.</span>
+                </div>
+                <form class="landing__form footer" action="" method="" id="footer-form">
+                    <div class="form__items">
+                        <div class="form__item">
+                            <select name="country">
+							</select>
+                        </div>
+                        <div class="form__item">
+                            <input type="text" class="form-submit__input form-control form-control_empty" placeholder="Ваше имя" name="name">
+                        </div>
+                        <div class="form__item">
+                            <input type="text" class="form-submit__input form-control form-control_empty" placeholder="Номер телефона" name="phone">
+                        </div>
+                        <div class="form__item">
+                            <input type="submit" class="form__btn" value="ОФОРМИТЬ ЗАКАЗ">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="landing_footer">
+                ООО «Смарткитченз» 115477, Г. МОСКВА, УЛ. МЕДИКОВ, Д.7, КОРПУС 3, ИНН/КПП 7724947986/742701001 ОГРН 5027866375904
+                <br>
+                <a href="../politic.html" class="">Политика конфиденциальности</a>
+                <a href="../oferta.html" class="">Публичная оферта</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+	<script src="https://click.lucky.online/js/leadprofit.js"></script>
+
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  $("form").leadprofit({hash: "a0d7b804-ccc4-4f51-98c8-444ade344a37"}).leadprofitSubmit({confirmUrl: '../confirm.html', counterParams: {country: "{country}", version: document.location.pathname.replace(/\/+/g, '').replace('landings', '').replace('index.html', '').replace('index2.html', '').replace('confirm.html', '')}});
+		});
+	</script>
+
+	<script src="../price.js"></script>
+
+</body>
+
+</html>

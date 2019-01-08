@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Otostick</title>
+    <!--[if lt IE 9]>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.8/es5-shim.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/timeTo.css">
+    <link rel="stylesheet" href="build/css/slick.css">
+    <link rel="stylesheet" href="build/css/slick-theme.css">
+    <link rel="stylesheet" href="build/css/font.css">
+    <link rel="stylesheet" href="build/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="info">
+        <div class="info__body">
+            <div class="info__top">
+                <div class="info__logo">
+                    <h2>Otostick</h2>
+                </div>
+                <div class="info__title">
+                    <h3>Ортопедический корректор для исправления лопоухости</h3>
+                    <p>Избавьтесь от лопоухости за 1 курс!</p>
+                </div>
+            </div>
+            <div class="info__content">
+                <div class="info__pack">
+                    <img src="build/images/info-pack.png" alt="" class="dec" />
+                    <img src="build/images/mob/info-pack.png" alt="" class="mob" />
+                </div>
+                <div class="info__list">
+                    <ul>
+                        <li>
+                            Исправит лопоухость с 1 применения
+                        </li>
+                        <li>
+                            Поможет справиться без боли и операций
+                        </li>
+                        <li>
+                            Быстрый корректирующий эффект
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info__action">
+                <div class="info__action-top">
+                    <div class="info__action-title">
+                        <p>Успейте оформить заказ <span>ПО АКЦИИ</span></p>
+                    </div>
+                    <div class="info__action-price dec">
+                        <p class="info__action-price__new">
+                            Специальная цена
+                            <span>
+                                <span class="new_price_val">149</span> <span class="new_price_cur">руб</span>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="info__action-timer">
+                        <p>ДО КОНЦА <span>АКЦИИ</span> ОСТАЛОСЬ</p>
+                        <div id="countdown-1"></div>
+                    </div>
+                    <div class="info__action-price mob">
+                        <p class="info__action-price__new">
+                            Специальная цена
+                            <span>
+                                <span class="new_price_val">149</span> <span class="new_price_cur">руб</span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="info__action-form">
+                    <form class="landing__form">
+                        <select name="country"></select>
+                        <input type="text" name="name" placeholder="Ваше имя">
+                        <input type="tel" name="phone" placeholder="Номер телефона">
+                        <button type="submit">Заказать за <span class="new_price_val">149</span> <span class="new_price_cur">руб</span></button>
+                    </form>
+                </div>
+                <div class="info__action-note">
+                    <p>*подробности у оператора</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="def">
+        <div class="def__body">
+            <div class="def__content">
+                <div class="def__title">
+                    <h2>Деформации ушей приводят к <span>комплексам и болезням</span></h2>
+                </div>
+                <div class="def__list">
+                    <ul>
+                        <li>
+                            <img src="build/images/def-img1.png" alt="" />
+                            <p>Деформация ушей провоцирует развитие деффекта ушной раковины </p>
+                        </li>
+                        <li>
+                            <img src="build/images/def-img2.png" alt="" />
+                            <p>Ее следствием становится гипертрофия хрящевой структуры и выворачивание ушей наружу</p>
+                        </li>
+                        <li>
+                            <img src="build/images/def-img3.png" alt="" />
+                            <p>Лопоухость (макротия) приводит к сосудистой аномалии, нарушениям слуха, инвалидности</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="def__note">
+                <p>Жить полноценной жизнью или провести остаток своих дней, комплексуя из-за своей внешности и рискуя
+                    потерей слуха – решать вам!</p>
+            </div>
+        </div>
+    </div>
+    <div class="weak">
+        <div class="weak__body">
+            <div class="weak__title">
+                <h2><span>В 78% случаев</span> макротия привела к инвалидности!</h2>
+            </div>
+            <div class="weak__content">
+                <div class="weak__pack">
+                    <img src="build/images/weak-pack.jpg" alt="" />
+                </div>
+                <div class="weak__desc">
+                    <p>Otostick – это ортопедический корректор для ушей,
+                        выполненный из силикона высокого качества. Уникальный
+                        по своим свойствам материал гипоаллергенен и обладает
+                        высокой эластичностью. Otostick держится до 7 дней
+                        и не боится воды. </p>
+                    <p><span>Его эффективность клинически доказана.</span></p>
+                </div>
+            </div>
+            <div class="weak__name">
+                <h2>Чем отличается корректор<br /> Otostick от других средств? </h2>
+            </div>
+            <div class="weak__list">
+                <ul>
+                    <li>
+                        <img src="build/images/weak-img1.jpg" alt="" />
+                        <p>Сделан в Германии</p>
+                    </li>
+                    <li>
+                        <img src="build/images/weak-img2.jpg" alt="" />
+                        <p>1 упаковка – 4 корректора</p>
+                    </li>
+                    <li>
+                        <img src="build/images/weak-img3.jpg" alt="" />
+                        <p>Гипоаллергенен</p>
+                    </li>
+                    <li>
+                        <img src="build/images/weak-img4.jpg" alt="" />
+                        <p>Для спорта и любых температур</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="step">
+        <div class="step__body">
+            <div class="step__title">
+                <h2>Фиксируем корректор OTOSTICK в <span>4 шага!</span></h2>
+            </div>
+            <div class="step__content">
+                <div class="step__media">
+                    <iframe src="https://youtube.com/embed/ZLBm3Sft4QQ" frameborder="0"></iframe>
+                    <button data-toggle="scroll" data-id="#form" class="dec">Заказать</button>
+                </div>
+                <div class="step__list">
+                    <ul>
+                        <li>
+                            <div class="step__img">
+                                <img src="build/images/step-img1.png" alt="" />
+                            </div>
+                            <div class="step__desc">
+                                <p>Очищаем кожу за ухом </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step__img">
+                                <img src="build/images/step-img2.png" alt="" />
+                            </div>
+                            <div class="step__desc">
+                                <p>Определяем место фиксации </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step__img">
+                                <img src="build/images/step-img3.png" alt="" />
+                            </div>
+                            <div class="step__desc">
+                                <p>Прикрепляем корректор к ушной раковине </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="step__img">
+                                <img src="build/images/step-img4.png" alt="" />
+                            </div>
+                            <div class="step__desc">
+                                <p>Приклеиваем вторую часть к голове </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="step__media mob">
+                    <button data-toggle="scroll" data-id="#form">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="effective">
+        <div class="effective__title">
+            <h2>Отостик исправляет лопоухость навсегда! <span>Эффективность 87,3%</span></h2>
+        </div>
+        <div class="effective__content">
+            <div class="effective__static">
+                <div class="effective__circle">
+                    <p>87,3%</p>
+                </div>
+                <div class="effective__img">
+                    <img src="build/images/effective-img.png" alt="" />
+                </div>
+            </div>
+            <div class="effective__desc">
+                <p>Медицинским обществом первичного обслуживания
+                    граждан при поддежке Европейского фонда регионального
+                    развития и правительства Германии были проведены
+                    клинические исследовния эффективности корректоров Отостик.</p>
+                <p>В течение 12 месяцев <span>100 человек</span> использовали данный
+                    метод. По истечении года у <span>87,3% участников</span> наблюдалась
+                    <span>хорошая и средняя степень коррекции</span> оттопыренности ушных
+                    раковин: <span>7–11 мм и 4–6 мм</span> соответственно.</p>
+                <p><span>Otostick полностью либо почти полностью устраняют
+                        лопоухость.</span> Ортопедическое изделие эстетически
+                    корректирует излишнюю лопоухость и позволяет чувствовать
+                    себя уверенно. Результаты видны уже после 6 месяцев
+                    непрерывного ношения. По мере достижения результата
+                    корректоры можно уже не носить, поскольку <span>ушной хрящ
+                        сформируется правильным образом.</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="expert">
+        <div class="expert__body">
+            <div class="expert__content">
+                <div class="expert__title">
+                    <h2>Эксперты говорят</h2>
+                </div>
+                <div class="expert__desc">
+                    <p>Важно понимать, что макротия – это и
+                        гипертрофия хрящевой структуры. Корректор
+                        <span>Otostick</span> позволяет постепенно восстановить
+                        правильную работу хрящей и держит уши в
+                        правильном положении, будучи практически
+                        незаметным. Клей удерживает корректор на коже
+                        до 7 дней, затем корректор можно открепить и
+                        заменить на новый.</p>
+                    <p>В первые дни возможен небольшой дискомфорт,
+                        но в последствии все нормализуется. Корректором
+                        <span>Otostick</span> можно пользоваться как каждый день,
+                        так и по мере необходимости. Я очень рекомендую
+                        ежедневно использовать <span>Otostick</span> во время
+                        домашнего досуга, а также ночью во время сна.</p>
+                    <p><span>Нетрусов Федор Геннадьевич</span> Врач-отиатр экспертного уровня, д.м.н.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feed">
+        <div class="feed__title">
+            <h2>Отзывы покупателей</h2>
+        </div>
+        <div class="feed__list">
+            <ul class="dec">
+                <li>
+                    <div class="feed__img">
+                        <img src="build/images/feed-img1.jpg" alt="" />
+                    </div>
+                    <div class="feed__desc">
+                        <h4>Иван Громов, 19 лет</h4>
+                        <p>Операцию делать страшно и я твердо решил пройти курс. Скажу вам следующее - отопластик
+                            полностью изменил мою жизнь! Я больше не прячу свои уши под кепкой, мне не надо отращивать
+                            волосы и ходить как хиппи!!!!</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="feed__img">
+                        <img src="build/images/feed-img2.jpg" alt="" />
+                    </div>
+                    <div class="feed__desc">
+                        <h4>Арина Вихрева, 27 лет</h4>
+                        <p>Удивительное средство! Сразу чувствуешь себя лучше! От кривых ушей спустя месяц не осталось
+                            ни следа! Можно носить в душе, в отпуске. Результат не за 1 минуту, но корректоры прекрасно
+                            работают!</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="feed__img">
+                        <img src="build/images/feed-img3.jpg" alt="" />
+                    </div>
+                    <div class="feed__desc">
+                        <h4>Ольга Бойцова, 35 лет</h4>
+                        <p>Они удобные! Думала, очередной развод,
+                            но проносила курс и вся лопоухость прошла. Рекомендую всем девушкам
+                            с такой же проблемой! Долой комплексы, здравствуй новая жизнь! Спасибо вам :))</p>
+                    </div>
+                </li>
+            </ul>
+            <section class="regular mob">
+                <div>
+                    <div class="feed__img">
+                        <img src="build/images/feed-img1.jpg" alt="" />
+                    </div>
+                    <div class="feed__desc">
+                        <h4>Иван Громов, 19 лет</h4>
+                        <p>Операцию делать страшно и я твердо решил пройти курс. Скажу вам следующее - отопластик
+                            полностью изменил мою жизнь! Я больше не прячу свои уши под кепкой, мне не надо отращивать
+                            волосы и ходить как хиппи!!!!</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="feed__img">
+                        <img src="build/images/feed-img2.jpg" alt="" />
+                    </div>
+                    <div class="feed__desc">
+                        <h4>Арина Вихрева, 27 лет</h4>
+                        <p>Удивительное средство! Сразу чувствуешь себя лучше! От кривых ушей спустя месяц не осталось
+                            ни следа! Можно носить в душе, в отпуске. Результат не за 1 минуту, но корректоры прекрасно
+                            работают!</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="feed__img">
+                        <img src="build/images/feed-img3.jpg" alt="" />
+                    </div>
+                    <div class="feed__desc">
+                        <h4>Ольга Бойцова, 35 лет</h4>
+                        <p>Они удобные! Думала, очередной развод,
+                            но проносила курс и вся лопоухость прошла. Рекомендую всем девушкам
+                            с такой же проблемой! Долой комплексы, здравствуй новая жизнь! Спасибо вам :))</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info__body">
+            <div class="info__top">
+                <div class="info__logo">
+                    <h2>Otostick</h2>
+                </div>
+                <div class="info__title">
+                    <h3>Ортопедический корректор для исправления лопоухости</h3>
+                    <p>Избавьтесь от лопоухости за 1 курс!</p>
+                </div>
+            </div>
+            <div class="info__content">
+                <div class="info__pack">
+                    <img src="build/images/info-pack.png" alt="" class="dec" />
+                    <img src="build/images/mob/info-pack.png" alt="" class="mob" />
+                </div>
+                <div class="info__list">
+                    <ul>
+                        <li>
+                            Исправит лопоухость с 1 применения
+                        </li>
+                        <li>
+                            Поможет справиться без боли и операций
+                        </li>
+                        <li>
+                            Быстрый корректирующий эффект
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info__action">
+                <div class="info__action-top">
+                    <div class="info__action-title">
+                        <p>Успейте оформить заказ <span>ПО АКЦИИ</span></p>
+                    </div>
+                    <div class="info__action-price dec">
+                        <p class="info__action-price__new">
+                            Специальная цена
+                            <span>
+                                <span class="new_price_val">149</span> <span class="new_price_cur">руб</span>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="info__action-timer">
+                        <p>ДО КОНЦА <span>АКЦИИ</span> ОСТАЛОСЬ</p>
+                        <div id="countdown-2"></div>
+                    </div>
+                    <div class="info__action-price mob">
+                        <p class="info__action-price__new">
+                            Специальная цена
+                            <span>
+                                <span class="new_price_val">149</span> <span class="new_price_cur">руб</span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="info__action-form">
+                    <form class="landing__form" id="form">
+                        <select name="country"></select>
+                        <input type="text" name="name" placeholder="Ваше имя">
+                        <input type="tel" name="phone" placeholder="Номер телефона">
+                        <button type="submit">Заказать за <span class="new_price_val">149</span> <span class="new_price_cur">руб</span></button>
+                    </form>
+                </div>
+                <div class="info__action-note">
+                    <p>*подробности у оператора</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>ООО Отостик 127464, Россия, Москва, Дмитровское шоссе, 124 ИНН 7713725514; ОГРН 1117746196897 </p>
+        <a href="../../../politic.html">Политика конфиденциальности</a>
+        <a href="../../../oferta.html">Публичная оферта</a>
+    </footer>
+    <script src="build/js/jquery.time-to.js"></script>
+    <script src="build/js/slick.min.js"></script>
+    <script src="build/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+    <script src="https://click.lucky.online/js/leadprofit.js"></script>
+    <script>
+        $("form").leadprofit({ hash: "b23a14b3-59f2-4baf-a262-af3bf9bd9005" }).leadprofitSubmit({ confirmUrl: '../../../confirm.html', counterParams: { country: "{country}", version: document.location.pathname.replace(/\/+/g, '').replace('landings', '').replace('index.html', '').replace('index2.html', '').replace('confirm.html', '') } });
+    </script>
+    <script src="../price.js"></script>
+</body>
+
+</html>

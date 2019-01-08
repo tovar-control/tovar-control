@@ -1,0 +1,114 @@
+.consist {
+  padding: 40px 0;
+  font-family: Rubik, sans-serif;
+}
+.consist__parent {
+  padding-top: 46px;
+  text-align: justify;
+}
+.consist__parent:after {
+  display: inline-block;
+  content: '';
+  width: 100%;
+}
+.consist__child {
+  max-width: 440px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+.consist__child.tablet .consist__name, .consist__child.tablet .consist__item:before, .consist__child.tablet .consist__name {
+  color: #ff4c00;
+}
+.consist__title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-bottom: 45px;
+}
+.consist__list {
+  counter-reset: li;
+}
+.consist__picture {
+  display: inline-block;
+  vertical-align: middle;
+}
+.consist__info {
+  font-size: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 115px);
+  margin-left: 15px;
+}
+.consist__name {
+  font-weight: 400;
+  color: #1c646e;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.consist__description {
+  font-weight: 500;
+}
+.consist__item {
+  font-size: 0;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 10px;
+}
+.consist__item:last-child {
+  margin-bottom: 0;
+}
+
+.consist .title {
+  color: #ff4c00;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1.7px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .consist__child {
+    margin: 0 auto 45px;
+    display: block;
+  }
+  .consist__child:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 769px) {
+  .consist .title {
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+  }
+  .consist__title {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  .consist__parent {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .consist .title {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  .consist__title {
+    font-size: 20px;
+  }
+  .consist__item:before {
+    left: -5px;
+  }
+  .consist__name {
+    line-height: 18px;
+  }
+  .consist__description {
+    font-size: 16px;
+  }
+}

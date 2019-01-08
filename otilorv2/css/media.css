@@ -1,0 +1,761 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .skills_item {
+        font-size: 11px;
+        padding: 23px 0;
+    }
+
+    footer ul li,
+    header ul li {
+        font-size: 16px;
+    }
+
+    .forma .forma_text {
+        font-size: 28px;
+    }
+
+    .price__old {
+        font-size: 19px;
+    }
+
+    .price__new {
+        font-size: 37px;
+    }
+
+    .price__new .price_text {
+        font-size: 17px;
+    }
+    .price__old hr {
+        width: 91px;
+    }
+
+    .timer_title {
+        font-size: 12px;
+    }
+
+    .countdown .countdown__item {
+        margin: 0 7px;
+    }
+
+    .countdown .countdown__item:after {
+        right: -14px;
+    }
+
+    .prob_text p {
+        font-size: 14px;
+    }
+
+    .expert .expert_content p {
+        font-size: 15px;
+    }
+
+    .sostav_title {
+        font-size: 34px;
+    }
+
+    .expert .expert_title span {
+        font-size: 41px;
+    }
+
+    .expert .expert_content .rosp {
+        right: 175px;
+    }
+
+    .sostav_item span {
+        font-size: 15px;
+    }
+
+    .sostav_item p {
+        font-size: 14px;
+    }
+
+    .facts_item p {
+        font-size: 16px;
+    }
+
+    .links {
+        margin-top: 13px;
+        background: rgba(122, 122, 122, 0.5);
+    }
+
+    .links a,
+    .links p {
+        color: #FFF;
+    }
+
+    .rev_item h2 {
+        font-size: 27px;
+    }
+
+    .rev_item {
+        margin-bottom: 55px;
+    }
+
+    .expert .expert_content .prod1 {
+        right: -123px;
+    }
+
+    .izbav ul {
+        font-size: 16px;
+    }
+
+    .izbav .izbav_title {
+        font-size: 38px;
+    }
+
+    .prob_text span,
+    .problems_title span {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .skills_item {
+        font-size: 10px;
+        -webkit-background-size: 40px;
+        -o-background-size: 40px;
+        background-size: 40px;
+    }
+
+    .skills .col-sm-3:first-child .skills_item {
+        background-position: left -30px;
+        padding-left: 40px;
+    }
+
+    .skills .col-sm-3:nth-child(2) .skills_item {
+        background-position: left 23px;
+        padding-left: 40px;
+    }
+
+    .skills .col-sm-3:nth-child(3) .skills_item {
+        background-position: left -83px;
+        padding-left: 35px;
+    }
+
+    .skills .col-sm-3:last-child .skills_item {
+        background-position: left -135px;
+        padding-left: 30px;
+    }
+
+    h1 {
+        font-size: 39px !important;
+        margin-bottom: 0 !important;
+    }
+
+    footer ul li,
+    header ul li {
+        font-size: 13px;
+    }
+
+    .forma .forma_text {
+        font-size: 21px;
+    }
+
+    .price__old {
+        font-size: 14px;
+    }
+
+    .price__new .price_text {
+        font-size: 14px;
+    }
+
+    .price__new {
+        font-size: 28px;
+    }
+
+    .price__old hr {
+        width: 68px;
+        bottom: 10px;
+    }
+
+    .timer_title {
+        font-size: 9px;
+    }
+
+    .countdown .countdown__item {
+        width: 40px;
+        margin: 0 5px;
+        padding: 0;
+        font-size: 21px;
+    }
+
+    .countdown .countdown__item:after {
+        right: -11px;
+    }
+
+    .countdown .countdown__item:before {
+        font-size: 11px;
+    }
+
+    .countdown .countdown__item:first-child:before,
+    .countdown .countdown__item:nth-child(2):before {
+        right: 0;
+    }
+
+    .countdown .countdown__item:last-child:before {
+        right: -3px;
+    }
+
+    .form__input {
+        padding-left: 33px;
+    }
+
+    .form__btn,
+    .form__input {
+        font-size: 12px;
+    }
+
+    .form__btn,
+    .form__input {
+        height: 35px;
+    }
+
+    .problems_title {
+        font-size: 34px;
+    }
+
+    .prob_text span,
+    .problems_title span {
+        font-size: 19px;
+    }
+
+    .prob_text {
+        margin-top: 0;
+    }
+
+    .prob_text p {
+        font-size: 13px;
+    }
+
+    .prim {
+        width: 650px;
+    }
+
+    .izbav .izbav_title {
+        font-size: 29px;
+    }
+
+    .izbav ul {
+        font-size: 14px;
+    }
+
+    .expert .expert_title span {
+        font-size: 34px;
+    }
+
+    .expert .expert_content p {
+        font-size: 13px;
+    }
+
+    .expert .expert_content {
+        padding-top: 45px;
+        padding-left: 0;
+    }
+
+    .expert .expert_content .expert_name {
+        font-size: 20px;
+    }
+
+
+
+    .expert .expert_content .expert_op {
+        font-size: 13px;
+        margin-bottom: 27px;
+    }
+
+    .expert .expert_content .rosp {
+        bottom: 62px;
+        right: 240px;
+    }
+
+    .sostav_title {
+        font-size: 25px;
+    }
+
+    .sostav_item {
+        padding: 0;
+    }
+
+    .sostav_item img {
+        width: 100%;
+    }
+
+    .sostav_item span {
+        font-size: 20px;
+    }
+
+    .sostav_item p {
+        font-size: 15px;
+    }
+
+    .facts .facts_title {
+        font-size: 38px;
+    }
+
+    .facts_item p {
+        font-size: 13px;
+    }
+
+    .rev_item h2 {
+        font-size: 19px;
+    }
+
+    .rev_item p {
+        font-size: 14px;
+    }
+
+    .reviews .reviews_title {
+        font-size: 37px;
+    }
+
+    .links {
+        margin-top: 40px;
+        background: rgba(122, 122, 122, 0.5);
+        padding: 10px;
+    }
+
+    .links p {
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .links a {
+        color: #FFF;
+    }
+}
+
+@media (max-width: 767px) {
+    .posiz img{
+        width: 100%;
+    }
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        width: 303px;
+        margin: 0 auto;
+    }
+
+    .skills_wrapper {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 4px;
+    }
+
+    .skills_item {
+        font-size: 9px;
+        -webkit-background-size: 30px;
+        -o-background-size: 30px;
+        background-size: 30px;
+        padding-left: 36px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 20px;
+    }
+
+    ._wrapper {
+        padding: 0 13px;
+    }
+
+    header {
+        background-image: url('../img/header_mob.jpg')
+    }
+
+    footer{
+        background-image: url('../img/footer_mob.jpg')
+    }
+
+    .skills_wrapper:first-child .skills_item:first-child {
+        background-position: left -33px;
+    }
+
+    .skills_wrapper:first-child .skills_item:nth-child(2) {
+        background-position: left 0;
+    }
+
+    .skills_wrapper:nth-child(2) .skills_item:first-child {
+        background-position: left -78px;
+    }
+
+    .skills_wrapper:nth-child(2) .skills_item:nth-child(2) {
+        background-position: left -119px;
+    }
+
+    .posiz img {
+        margin-top: 380px;
+    }
+
+    footer ul li,
+    header ul li {
+        font-size: 15px;
+        -webkit-background-size: 40px;
+        -o-background-size: 40px;
+        background-size: 40px;
+        padding-top: 8px;
+        padding-bottom: 12px;
+        padding-left: 55px;
+    }
+
+    header ul li:first-child {
+        background-position: left 20px;
+    }
+
+    header ul li:nth-child(2) {
+        background-position: left 11px;
+    }
+    header ul li:nth-child(3) {
+        background-position: left 19px;
+    }
+
+    header ul li:nth-child(4) {
+        background-position: left 0;
+    }
+
+    .forma_text span {
+        font-size: 22px;
+    }
+
+    .forma {
+        position: relative;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .price__old {
+        position: absolute;
+        font-size: 17px;
+        top: 7px;
+        right: -10px;
+    }
+
+    .price__old hr {
+        width: 82px;
+        bottom: 12px;
+    }
+
+    .price__new .price_text {
+        font-size: 13px;
+        font-family: GothamProBold;
+        display: inline-block;
+    }
+
+    .price__new {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .new_price_val,
+    .new_price_cur {
+        font-style: italic;
+    }
+
+    .countdown .countdown__item:after{
+        right: -17px;
+    }
+
+    .timer_title {
+        font-size: 22px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .countdown .countdown__item {
+        margin: 0 10px;
+    }
+
+    .countdown .countdown__item {
+        border-color: #0090e0 !important;
+        color: #0090E0;
+    }
+
+    .countdown .countdown__item:before {
+        color: #000;
+    }
+
+    .form__item {
+        margin: 10px 0;
+    }
+form {
+    margin-top: 33px;
+}
+
+.form__btn{
+    -webkit-border-radius: 0;
+            border-radius: 0;
+}
+
+.problems_title{
+    font-size: 23px;
+}
+
+.problems_wrapper{
+    padding-top: 15px;
+}
+
+.problems_title span{
+    font-size: 17px;
+    display: block;
+    margin: 15px 0;
+}
+
+.problems{
+    background-image: none;
+}
+
+.problems_wrapper{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.prob_text span{
+    font-size: 22px;
+    line-height: 1;
+}
+
+.prob_text{
+    margin-top: 10px;
+}
+
+.prob_text p{
+    font-size: 14px;
+}
+
+.prim{
+    font-size: 13px;
+    margin: 0;
+    width: 260px;
+    padding: 10px 15px;
+}
+
+.prim:after{
+    border-top: 32px solid #ff752b;
+    border-right: 11px solid transparent;
+    right: -11px;
+}
+
+.izbav .izbav_title{
+    font-size: 25px;
+}
+
+.izbav_wrapper{
+    padding: 0 13px;
+}
+
+.izbav .izbav_title p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.izbav ul li{
+    background-image: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.expert{
+    background-image : url('../img/expert_mob.jpg');
+}
+
+.expert .expert_title{
+    font-size: 26px;
+}
+
+.expert_wrapper{
+    padding: 0 13px;
+}
+
+.expert .expert_title span{
+    font-size: 21px;
+}
+
+.expert .expert_content{
+    background-color: #FFF;
+    padding: 12px 13px;
+}
+
+.prod1{
+    margin-top: 230px;
+}
+
+.prod1 img{
+    width: 155px;
+}
+
+.expert .expert_content p{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.expert .expert_content .expert_name{
+    font-size: 17px;
+}
+
+.expert .expert_content .expert_op{
+    font-size: 14px;
+}
+
+.sostav_title{
+    font-size: 16px;
+}
+
+.sostav_title p{
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.sostav_wrapper{
+    padding: 0 13px;
+}
+
+.sostav_item{
+    padding: 0;
+}
+
+.sostav_item{
+    display: inline-block;
+    width: 132px;
+    vertical-align: top;
+    margin: 5px 0;
+}
+
+.sostav_wrap .sostav_item:first-child{
+    margin-right: 7px;
+}
+
+.sostav_item img{
+    width: 100%;
+}
+
+.expert .expert_content .rosp{
+    display: none;
+}
+
+.sostav_item span{
+    font-size: 11px;
+    text-align: center;
+    margin: 10px 0 5px;
+}
+
+.sostav_item p{
+    font-size: 12px;
+}
+
+.sostav_item.prod2{
+    width: auto;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+.sostav_item.prod2 span{
+    font-size: 17px;
+}
+
+.sostav {
+    padding: 30px 0;
+}
+
+.facts .facts_title{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.facts{
+    background-image: url('../img/facts_mob.jpg');
+    padding-top: 10px;
+    height: 810px;
+}
+
+.facts_wrapper{
+    padding: 0 13px;
+}
+
+.facts_item p {
+    font-size: 14px;
+    padding-right: 55px;
+    padding-bottom: 0;
+}
+
+.facts_item {
+    margin-bottom: 0;
+}
+
+.facts_item span{
+    font-size: 52px;
+}
+
+.reviews .reviews_title{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.rev_wrapper{
+    padding: 0 13px;
+}
+
+.owl-carousel .owl-item img{
+    width: auto !important;
+    margin: 0 auto;
+}
+
+.rev_item span{
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+
+.rev_item h2{
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.rev_item p {
+    font-size: 14px;
+}
+
+.rev_item {
+    margin-bottom: 0;
+}
+
+.mobile .izbav .prod2{
+    margin: 15px 0;
+}
+
+.mobile .izbav .prod2 img{
+    width: 200px;
+}
+
+.owl-dots{
+    display: block;
+    text-align: center;
+}
+
+.owl-dot{
+    display: inline-block;
+    margin: 0 3px; 
+    background-color: #7ebddf;
+    height: 20px;
+    width: 20px;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+    margin-top: 20px;
+}
+
+.reviews{
+    padding-bottom: 20px;
+}
+
+.owl-dot.active{
+    background-color: #027dc1;
+}
+
+footer .posiz img {
+    margin-top: 303px;
+}
+
+.links{
+    margin-top: 35px;
+}
+
+}
