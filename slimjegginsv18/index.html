@@ -707,6 +707,73 @@
 
     </script>
     <script src="js/main.js"></script>
+    <!-- UNILAND START -->
+<script type="text/javascript" src="http://localhost/js/uniland.js?5c35e661ad77f"></script>
+<script type="text/javascript">
+    var scripts = [];
+    start = Date.now();
+
+    var uniland = new Uniland();
+
+    uniland.prelandMode = 0;
+    uniland.landId = 1;
+    uniland.landUrl = "http://tovar-control.tk/slimjegginsv18/index.html?marker_id=0";
+
+        //названия полей формы, откуда скрипт берет данные
+    //    uniland.aliasName = 'name';
+    //    uniland.aliasEmail = 'email';
+    //    uniland.aliasPhone = 'phone';
+    //    uniland.aliasCountry = 'country';
+    //    uniland.aliasComment = 'comment';
+    uniland.aliasGoodCode = 'good_code'; //код продукта из списка
+    uniland.aliasGoodsCount = 'goods_count';//выбранное количество
+    uniland.aliasGoodPrice = 'good_price';//цена за шт
+
+    uniland.urlOrder = 'http://localhost/api/order';
+    uniland.urlEmail = 'http://localhost/api/email/get';
+    uniland.sendEmptyForm = true; //поставить false, чтобы не отправлять конверсии с пустыми полями
+
+    
+
+
+    uniland.urlPixel = 'http://localhost/api/pixel';
+
+    uniland.processPixel();
+
+    uniland.setSpanValueByClass('mt_geo', uniland.getMtGeo('Москва'));
+    uniland.setSpanValueByClass('mt_gender', uniland.getMtGender('Женщин'));
+    uniland.setSpanValueByClass('mt_age', uniland.getMtAge('55'));
+
+    //проверяем есть ли JQ
+    if (!window.jQuery) {
+        scripts.push('https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js');
+    }
+
+    scripts.forEach(function (src) {
+        var jq = document.createElement('script');
+        jq.type = 'text/javascript';
+        jq.src = src;
+        document.getElementsByTagName('head')[0].appendChild(jq);
+    });
+
+    function init() {
+        if (window.jQuery) {
+            $(document).ready(function () {
+                uniland.run();
+            });
+        }
+    }
+
+    //ждем 1 сек пока все загрузится и вешаем события
+    setTimeout(init, 1000);
+</script>
+<noscript>
+    <div><img src="http://localhost/api/pixel?land_id=1" style="position:absolute; left:-9999px;"
+              alt=""/></div>
+</noscript>
+<!-- UNILAND END -->
+
+
 </body>
 
 </html>
